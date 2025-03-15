@@ -15,8 +15,8 @@
             <p>Os melhores hambuguer gourmet com ingredientes de auta qualidade.</p>
 
             <nav>
-                <a href="">Hamburgueres</a>
-                <a href="">Bebidas</a>
+                <a href="#produtos">Hamburgueres</a>
+                <a href="#bebidas">Bebidas</a>
                 <a href="">Pedido</a>
                 <a href="">Contato</a>
             </nav>
@@ -24,27 +24,119 @@
     </header>
 
     <main>
-        <section id="hamburgueres" class="categorias">
+        <section id="produto" class="categorias">
             <h2>Hamburgueres</h2>
             <div class="produto">
-                <img src="" alt="Hamburguer Campeão">
-                <h3>Hamburguer Campeão</h3>
+                <img src="imagens/X_CAMPEÃO-removebg-preview.png" alt="Hamburguer Campeão">
+                <h3>X CAMPEÃO</h3>
                 <p>Pão de brioche, presunto defumado, bacon defumado, cebola caramelizada, 2 hamburgueres artesanais, cebola empanada.</p>
                 <span class="preco">R$ 40,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        
+            <div class="produto">
+                <img src="imagens/X_BACON-removebg-preview.png" alt="Hamburguer Campeão">
+                <h3>X BACON</h3>
+                <p>Pão de brioche, 4 bacon defumado, presunto, 1 hamburgueres artesanais, alface, tomate.</p>
+                <span class="preco">R$ 20,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        
+            <div class="produto">
+                <img src="imagens/X_DIFERENCIADO-removebg-preview.png" alt="Hamburguer Campeão">
+                <h3>X DIFERÊNCIADO</h3>
+                <p>Pão de brioche, presunto defumado, bacon defumado, cebola caramelizada, 1 hamburgueres artesanais, cebola empanada.</p>
+                <span class="preco">R$ 30,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        
+            <div class="produto">
+                <img src="imagens/X_SALADA-removebg-preview.png" alt="Hamburguer Campeão">
+                <h3>X SALADA</h3>
+                <p>Pão de brioche, presunto defumado, bacon defumado, cebola caramelizada, 2 hamburgueres artesanais, cebola empanada.</p>
+                <span class="preco">R$ 15,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+             
+            <div class="produto">
+                <img src="imagens/QUATRO-QUEIJOS-removebg-preview.png" alt="Hamburguer Campeão">
+                <h3>QUATRO QUEIJOS</h3>
+                <p>Pão de brioche, presunto defumado, bacon defumado, cebola caramelizada, 2 hamburgueres artesanais, cebola empanada.</p>
+                <span class="preco">R$ 30,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="imagens/BATATA_FRITA_COM_CHEEDAR_E_BACON-removebg-preview.png" alt="Hamburguer Campeão">
+                <h3>PORÇÃO DE BATATA COM CHEEDAR E BACON</h3>
+                <p>Batata palito frita, cheedar, bacon crocante.</p>
+                <span class="preco">R$ 25,00</span>
                 <button class="adicionar">Adicionar</button>
             </div>
         </section>
 
         <section id="bebidas"class="categorias">
+            <h2>Bebidas</h2>
+            <div class="bebidas">
+                <img src="imagens/COCA_COLA_2_LITROS-removebg-preview.png" alt="Coc Cola 2L">
+                <h3>COCA COLA 2L</h3>
+                <p>Melhor Refrigerante do mundo</p>
+                <span class="preco">R$ 11,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
 
+            <div class="bebidas">
+                <img src="imagens/GUARANÁ_2_LITROS-removebg-preview.png" alt="Guaraná 2L">
+                <h3>Guaraná 2L</h3>
+                <p>Muito refrescante</p>
+                <span class="preco">R$ 10,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="bebidas">
+                <img src="imagens/FANTA_2_LITROS-removebg-preview.png" alt="Fanta 600ml">
+                <h3>Fanta</h3>
+                <p>Melhor refrigerante de laranja que existe</p>
+                <span class="preco">R$ 9,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="bebidas">
+                <img src="imagens/COCA_COLA_LATA-removebg-preview.png" alt="Coca Lata">
+                <h3>Coca Cola Lata</h3>
+                <p>Muito refrescante</p>
+                <span class="preco">R$ 8,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="bebidas">
+                <img src="imagens/GUARANÁ_LATA-removebg-preview.png" alt="Guaraná Lata">
+                <h3>Guaraná Lata</h3>
+                <p>Muito refrescante</p>
+                <span class="preco">R$ 8,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
         </section>
 
         <section id="pedido">
+            <h2>Seu Pedido</h2>
+            <ul id="lista-pedido">
 
+            </ul>
+
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-pedido">Finalizar Pedido</button>
         </section>
 
         <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco se quiser experimentar os melhores hamburgueres do mundo!!</p>
+            <div class="redes-sociais"></div>
+            <a href="https://wa.me/+55 43 99951-7534" 
+            target="_blank">Whatsapp</a>
 
+            <a href="https://instagram.com/edi_souza_filho" 
+            target="_blank">Instagram</a>
         </section>
     </main>
 
